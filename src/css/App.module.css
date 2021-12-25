@@ -2,6 +2,7 @@ html {
     background: url(../../image/background1.jfif) no-repeat;
     background-position: 50% 40%;
     background-size: cover;
+    padding-bottom: calc(1080/1920*100%);
 }
 
 .block {
@@ -42,13 +43,21 @@ html {
 }
 
 .redGrade{
-    float: left;
     margin-left: 5%;
 }
 
 .blackGrade{
-    float: right;
     margin-right: 5%;
+}
+
+@media screen and (min-width: 1250px){
+	.redGrade{
+        float: left;
+    }
+    
+    .blackGrade{
+        float: right;
+    }
 }
 
 .gradeSelect{

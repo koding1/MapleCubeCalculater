@@ -179,7 +179,7 @@ function App() {
     <div className={appstyles.app}>
       <Header />
 
-      <div style={{width:"100%", margin:"0 auto", display:"flex", minWidth: "800px"}}>
+      <div style={{width:"100%", margin:"0 auto", display:"flex", minWidth: "800px", width: "70%"}}>
         <Adfit ad_classname = "adm2" KEY = "DAN-YdTv4V2gMX9IcxZ6" ad_width="320" ad_height="100"/>
         <Adfit ad_classname = "adm1" KEY = "DAN-OGjzHXKJLaBZT92y" ad_width="320" ad_height="100"/>
       </div>
@@ -191,7 +191,7 @@ function App() {
           <div className={appstyles.selectComponent}>
             <div style={{display: "inline-block", width: "100%", border: "1px solid white", marginBottom: "30px"}}>
               <span className={appstyles.gradeSelectSpan}>
-                <p>장비 종류를 선택해주세요.</p>
+                <p>장비 종류 선택</p>
                 <select onChange={itemTypeChange}>
                   <option value={"X"}>선택 해주세요.</option>
                   <option value={"weapon"}>무기</option>
@@ -216,7 +216,7 @@ function App() {
                 </select>
               </span>
               <span className={appstyles.gradeSelectSpan}>
-                <p>현재 장비의 잠재등급</p>
+                <p>현재 잠재등급</p>
                 <select id={"previous_grade"} onChange={gradePreviousChange}>
                   <option value={"R"}>레어</option>
                   <option value={"E"}>에픽</option>
