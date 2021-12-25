@@ -257,7 +257,7 @@ function App() {
               </span>
             </div>
           </div>
-          <div style={{width:"80%", margin:"0 auto", display:"flex", marginBottom:"30px"}}>
+          <div style={{width:"100%", margin:"0 auto", display:"flex", marginBottom:"30px"}}>
             <Adfit ad_classname = "adm3" KEY = "DAN-RfNuMZE1ngEZBWpd" ad_width="728" ad_height="90"/>
           </div>
           <div className={cubeStyles.cubeComponent}>

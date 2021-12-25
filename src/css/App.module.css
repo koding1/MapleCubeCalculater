@@ -5,7 +5,7 @@ html {
 }
 
 .block {
-    min-width: 970px;
+    min-width: 800px;
     background: rgba(57, 66, 100, 0.7);
     border-radius: 5px;
     margin: 1em auto;
@@ -24,7 +24,7 @@ html {
 }
 
 .selectComponent {
-    min-width: 800px;
+    /* min-width: 800px; */
     width: 80%;
     margin: 0 auto;
 }
@@ -64,6 +64,6 @@ html {
     text-align:center;
     margin-bottom: 30px;
     border: 1px solid white;
-    min-width: 800px;
+    /* min-width: 800px; */
     width: 100%;
 }
