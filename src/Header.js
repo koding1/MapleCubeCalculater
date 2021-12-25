@@ -16,9 +16,10 @@ function Header() {
             <a href="https://www.jobmaple.com/stat"><span className="icon entypo-chart-line scnd-font-color"></span>통계</a>
           </li>
           <li className={headerStyles.header_content}>
-            <a href="https://www.jobmaple.com/"><span className="icon openwebicons-remote-storage scnd-font-color"></span>큐브 계산기</a>
+            <a href="https://www.redvsblack.site/"><span className="icon openwebicons-remote-storage scnd-font-color"></span>큐브 계산기</a>
           </li>
         </ul>
+
       </div>
     </header>
   );

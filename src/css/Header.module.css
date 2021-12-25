@@ -50,12 +50,10 @@
     transition: background .3s;
     color: #fff;
     text-decoration: none;
-
     
 }
 
 .header_content:hover {
     background: #50597b;
     border-bottom: 4px solid #11a8ab;
-    text-decoration: none;
 }

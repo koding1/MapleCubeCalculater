@@ -4,8 +4,12 @@ import Option2 from "./Option2";
 import cubeStyles from "./css/Cube.module.css";
 import Header from "./Header";
 import appstyles from "./css/App.module.css";
+import Adfit from "./Adfit";
 
 function App() {
+
+
+
   const [itemType, setItemType] = useState("X");
 
   // const [gradePrevious, setGradePrevious] = useState("R");
@@ -168,13 +172,21 @@ function App() {
     }
   }
 
+
+
   return (
+    
     <div className={appstyles.app}>
       <Header />
 
+      <div style={{width:"80%", margin:"0 auto", display:"flex", minWidth: "970px"}}>
+        <Adfit ad_classname = "adm2" KEY = "DAN-YdTv4V2gMX9IcxZ6" ad_width="320" ad_height="100"/>
+        <Adfit ad_classname = "adm1" KEY = "DAN-OGjzHXKJLaBZT92y" ad_width="320" ad_height="100"/>
+      </div>
+
       <div className={`${appstyles.block} ${appstyles.main}`}>
         <h1>레드/블랙 큐브 기대비용 계산기</h1>
-
+        <p style={{textAlign:"center"}}>레드 큐브? 블랙 큐브? 어떻게 지르는게 더 효율적일까 ?</p>
         <div>
           <div className={appstyles.selectComponent}>
             <div style={{display: "inline-block", width: "100%", border: "1px solid white", marginBottom: "30px"}}>
@@ -245,7 +257,9 @@ function App() {
               </span>
             </div>
           </div>
-
+          <div style={{width:"80%", margin:"0 auto", display:"flex", marginBottom:"30px"}}>
+            <Adfit ad_classname = "adm3" KEY = "DAN-RfNuMZE1ngEZBWpd" ad_width="728" ad_height="90"/>
+          </div>
           <div className={cubeStyles.cubeComponent}>
             <h2 style={{textAlign: "center", marginBottom:"40px"}}>잠재 능력</h2>
             <div className={cubeStyles.cubeLeft}>
