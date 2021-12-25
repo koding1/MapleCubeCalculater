@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
+@import url(https://weloveiconfonts.com/api/?family=openwebicons);
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+  }
+  /* fontawesome */
+  [class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+  }
+  /* zocial */
+  [class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+  }
+/* openwebicons */
+  [class*="openwebicons-"]:before {
+        font-family: 'OpenWeb Icons', sans-serif;
+  }
+
+.my_header{
+    height: 80px;
+}
+
+.my_header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.my_header span {
+    padding-right: 15px;
+    color: #9099b7;
+    font-size: 25px;
+}
+
+.header_content{
+    float: left;
+
+    position: relative;
+    -webkit-transform: translateZ(0);
+}
+.header_content a{
+    padding: 0 27px;
+    display: block;
+    line-height: 74px;
+    font-size: 17px;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    color: #fff;
+    text-decoration: none;
+
+    
+}
+
+.header_content:hover {
+    background: #50597b;
+    border-bottom: 4px solid #11a8ab;
+    text-decoration: none;
+}
