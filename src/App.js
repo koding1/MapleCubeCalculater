@@ -179,7 +179,7 @@ function App() {
     <div className={appstyles.app}>
       <Header />
 
-      <div style={{width:"80%", margin:"0 auto", display:"flex"}}>
+      <div style={{width:"100%", margin:"0 auto", display:"flex", minWidth: "800px"}}>
         <Adfit ad_classname = "adm2" KEY = "DAN-YdTv4V2gMX9IcxZ6" ad_width="320" ad_height="100"/>
         <Adfit ad_classname = "adm1" KEY = "DAN-OGjzHXKJLaBZT92y" ad_width="320" ad_height="100"/>
       </div>
