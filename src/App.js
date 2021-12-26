@@ -183,8 +183,8 @@ function App() {
       <Header />
 
       <div style={{width:"70%", margin:"0 auto", display:"flex", minWidth: "800px"}}>
-        <Adfit ad_classname = "adm2" KEY = "DAN-YdTv4V2gMX9IcxZ6" ad_width="320" ad_height="100"/>
-        <Adfit ad_classname = "adm1" KEY = "DAN-OGjzHXKJLaBZT92y" ad_width="320" ad_height="100"/>
+        <Adfit ad_classname = "adm2" KEY = "DAN-KBpE5Lnl2w3CA9tJ" ad_width="320" ad_height="100"/>
+        <Adfit ad_classname = "adm1" KEY = "DAN-FJwrWYRGSuKJoKrs" ad_width="320" ad_height="100"/>
       </div>
 
       <div className={`${appstyles.block} ${appstyles.main}`}>
@@ -265,7 +265,7 @@ function App() {
             </div>
           </div>
           <div style={{width:"100%", margin:"0 auto", display:"flex", marginBottom:"30px"}}>
-            <Adfit ad_classname = "adm3" KEY = "DAN-RfNuMZE1ngEZBWpd" ad_width="728" ad_height="90"/>
+            <Adfit ad_classname = "adm3" KEY = "DAN-haFXWUxdmuy2pCTn" ad_width="728" ad_height="90"/>
           </div>
           <div className={cubeStyles.cubeComponent}>
             <div className={appstyles.titleAndGuide} style={{marginBottom: "40px"}}>
