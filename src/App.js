@@ -6,6 +6,9 @@ import Header from "./Header";
 import appstyles from "./css/App.module.css";
 import Adfit from "./Adfit";
 
+import PopUp1 from "./PopUp1";
+import PopUp2 from "./PopUp2";
+
 function App() {
 
 
@@ -187,6 +190,7 @@ function App() {
       <div className={`${appstyles.block} ${appstyles.main}`}>
         <h1>레드/블랙 큐브 기대비용 계산기</h1>
         <p style={{textAlign:"center"}}>레드 큐브? 블랙 큐브? 어떻게 지르는게 더 효율적일까 ?</p>
+        
         <div>
           <div className={appstyles.selectComponent}>
             <div style={{display: "inline-block", width: "100%", border: "1px solid white", marginBottom: "30px"}}>
@@ -236,7 +240,10 @@ function App() {
             </div>
 
             <div className={appstyles.gradePriceDiv}>
-              <h2 style={{textAlign: "center"}}>등급 상승</h2>
+              <div className={appstyles.titleAndGuide}>
+                <h2>등급 상승</h2>
+                <PopUp1 text={"가이드"} guide={"현재 장비등급과 목표 장비등급을 설정해주세요. 목표 잠재등급 도달까지의 기대값을 확인 할 수 있어요."}/>
+              </div>
               <span className={appstyles.redGrade}>
                 <p>
                   레드 큐브 기대비용: 약{" "}
@@ -261,7 +268,10 @@ function App() {
             <Adfit ad_classname = "adm3" KEY = "DAN-RfNuMZE1ngEZBWpd" ad_width="728" ad_height="90"/>
           </div>
           <div className={cubeStyles.cubeComponent}>
-            <h2 style={{textAlign: "center", marginBottom:"40px"}}>잠재 능력</h2>
+            <div className={appstyles.titleAndGuide} style={{marginBottom: "40px"}}>
+              <h2>잠재 능력</h2>
+              <PopUp2 text={"가이드"} guide={"위에서 '장비 종류'와 원하는 '목표 잠재등급'을 설정 하신 후 원하는 옵션을 선택해주세요."}/>
+            </div>
             <div className={cubeStyles.cubeLeft}>
               <div className={cubeStyles.cube}>
                 <div className={cubeStyles.cubeTypeRed}></div>

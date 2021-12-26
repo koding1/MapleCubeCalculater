@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background: url(../../image/background1.jfif) no-repeat;
     background-position: 50% 40%;
     background-size: cover;
     padding-bottom: calc(1080/1920*100%);
+    font-family: GongGothicMedium;
+    font-weight: 200;
 }
+
+
 
 .block {
     min-width: 800px;
@@ -75,4 +86,8 @@ html {
     border: 1px solid white;
     /* min-width: 800px; */
     width: 100%;
+}
+
+.titleAndGuide {
+    text-align: center;
 }
