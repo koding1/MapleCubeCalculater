@@ -18,6 +18,9 @@ function Header() {
           <li className={headerStyles.header_content}>
             <a href="https://www.redvsblack.site/"><span className="icon openwebicons-remote-storage scnd-font-color"></span>큐브 계산기</a>
           </li>
+          <li className={`${headerStyles.header_content}`} style={{float: "right"}}>
+            <a href="https://www.redvsblack.site/" className={`${headerStyles.header_logo}`}><span style={{fontSize:"20px", padding:"0", color:"red"}}>Red</span> vs <span style={{fontSize:"20px", padding:"0", color:"black"}}>Black</span></a>
+          </li>
         </ul>
 
       </div>

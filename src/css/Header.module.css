@@ -54,6 +54,11 @@
 }
 
 .header_content:hover {
-    background: #50597b;
-    border-bottom: 4px solid #11a8ab;
+    background: #192c72;
+    border-bottom: 4px solid #fff;
+}
+
+.header_logo {
+  margin-top: 5px;
+  color: #9099b7 !important;
 }
