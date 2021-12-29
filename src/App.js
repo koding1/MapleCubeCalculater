@@ -183,8 +183,8 @@ function App() {
       <Header />
 
       <div style={{width:"70%", margin:"0 auto", display:"flex", minWidth: "800px"}}>
-        <Adfit ad_classname = "adm2" KEY = "DAN-KBpE5Lnl2w3CA9tJ" ad_width="320" ad_height="100"/>
-        <Adfit ad_classname = "adm1" KEY = "DAN-FJwrWYRGSuKJoKrs" ad_width="320" ad_height="100"/>
+        <Adfit ad_classname = "adm2" KEY = "DAN-jOP2rpUp0jFEt9de" ad_width="325" ad_height="60"/>
+        <Adfit ad_classname = "adm1" KEY = "DAN-KQrn5sWyh3j3Gdz6" ad_width="325" ad_height="60"/>
       </div>
 
       <div className={`${appstyles.block} ${appstyles.main}`}>
