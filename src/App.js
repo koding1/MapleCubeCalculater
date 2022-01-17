@@ -182,10 +182,10 @@ function App() {
     <div className={appstyles.app}>
       <Header />
 
-      <div style={{width:"70%", margin:"0 auto", display:"flex", minWidth: "800px"}}>
+      {/* <div style={{width:"70%", margin:"0 auto", display:"flex", minWidth: "800px"}}>
         <Adfit ad_classname = "adm2" KEY = "DAN-gO3r05QWu3naWP1Q" ad_width="325" ad_height="250"/>
         <Adfit ad_classname = "adm1" KEY = "DAN-qAS3Z3ArKZJUxcWt" ad_width="325" ad_height="250"/>
-      </div>
+      </div> */}
 
       <div className={`${appstyles.block} ${appstyles.main}`}>
         <h1>레드/블랙 큐브 기대비용 계산기</h1>
