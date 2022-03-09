@@ -7,14 +7,14 @@ function Header() {
       <div>
         <ul>
           <li className={headerStyles.header_content}>
-            <a href="https://www.jobmaple.com/"><span className="icon fontawesome-align-left scnd-font-color"></span>직업 랭킹</a>
+            <a href="https://haegu99.pythonanywhere.com/"><span className="icon fontawesome-align-left scnd-font-color"></span>직업 랭킹</a>
           </li>
           <li className={headerStyles.header_content}>
-            <a href="https://www.jobmaple.com/mbti"><span className="icon fontawesome-check scnd-font-color"></span>메BTI</a>
+            <a href="https://haegu99.pythonanywhere.com/mbti/"><span className="icon fontawesome-check scnd-font-color"></span>메BTI</a>
           </li>
-          <li className={headerStyles.header_content}>
+          {/* <li className={headerStyles.header_content}>
             <a href="https://www.jobmaple.com/stat"><span className="icon entypo-chart-line scnd-font-color"></span>통계</a>
-          </li>
+          </li> */}
           <li className={headerStyles.header_content}>
             <a href="https://www.redvsblack.site/"><span className="icon openwebicons-remote-storage scnd-font-color"></span>큐브 계산기</a>
           </li>
