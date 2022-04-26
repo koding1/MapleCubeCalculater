@@ -10,7 +10,7 @@ function Header() {
             <a href="https://haegu99.pythonanywhere.com/"><span className="icon fontawesome-align-left scnd-font-color"></span>직업 랭킹</a>
           </li>
           <li className={headerStyles.header_content}>
-            <a href="https://haegu99.pythonanywhere.com/mbti/"><span className="icon fontawesome-check scnd-font-color"></span>메BTI</a>
+            <a href="https://haegu99.pythonanywhere.com/mbti"><span className="icon fontawesome-check scnd-font-color"></span>메BTI</a>
           </li>
           {/* <li className={headerStyles.header_content}>
             <a href="https://www.jobmaple.com/stat"><span className="icon entypo-chart-line scnd-font-color"></span>통계</a>
