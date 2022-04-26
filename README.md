@@ -10,7 +10,7 @@
     - 서비스 공개 당시
 3. 마무리
 
-## 소개
+## 1. 소개
 ### Red vs Black 이란?
 해당 서비스는 온라인 게임 '메이플스토리'에 두 가지 현금 아이템의 효율성을 각 상황에 맞게 분석하여 더 효율적인 선택지를 제공합니다.              
 
@@ -33,4 +33,14 @@ react (npm 8.6.0)
 JS      
 
 
+## 2. 사용자 반응 및 통계
+서비스 공개 당시 Google analytics 를 이용하여 유입을 분석하였습니다.    
+<p align="center"><img src="./docs/open_1hour.png" width="80%" height="80%"></p>      
 
+'메이플스토리 인벤' 커뮤니티에서 다양한 피드백이 있었고, 해당 피드백들을 바탕으로 업데이트 할 예정입니다.
+<p align="center"><img src="./docs/feedback1.png" width="80%" height="80%"></p>   
+<p align="center"><img src="./docs/feedback2.png" width="80%" height="80%"></p>   
+<p align="center"><img src="./docs/feedback3.png" width="80%" height="80%"></p>    
+
+## 3. 마무리
+작성 예정입니다.
