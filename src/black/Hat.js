@@ -1,7 +1,7 @@
 // import { useState } from "react";
-import cubeStyles from "../css/Cube.module.css"
+import cubeStyles from "../css/Cube.module.css";
 
-function Hat({grade, setOption, optionPer}) {
+function Hat({ grade, setOption, optionPer }) {
   const classname = "hat";
 
   function onChange(event) {
@@ -21,43 +21,51 @@ function Hat({grade, setOption, optionPer}) {
     return (
       <div className={classname}>
         <div id={"option4"}>
-          <p className = {cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
-            <option value={10.0}>{"STR : +12%"}</option>
-            <option value={10.0}>{"DEX : +12%"}</option>
-            <option value={10.0}>{"INT : +12%"}</option>
-            <option value={10.0}>{"LUK : +12%"}</option>
-            <option value={10.0}>{"최대 HP : +12%"}</option>
-            <option value={10.0}>{"최대 MP : +12%"}</option>
-            <option value={10.0}>{"방어력 : +12%"}</option>
-            <option value={7.5}>{"올스탯 : +9%"}</option>
-            <option value={7.5}>
+            <option value={8.8889}>{"STR : +12%"}</option>
+            <option value={8.8889}>{"DEX : +12%"}</option>
+            <option value={8.8889}>{"INT : +12%"}</option>
+            <option value={8.8889}>{"LUK : +12%"}</option>
+            <option value={8.8889}>{"최대 HP : +12%"}</option>
+            <option value={8.8889}>{"최대 MP : +12%"}</option>
+            <option value={8.8889}>{"방어력 : +12%"}</option>
+            <option value={6.6667}>{"올스탯 : +9%"}</option>
+            <option value={6.6667}>
               {"피격 시 10% 확률로 데미지의 20% 무시"}
             </option>
-            <option value={7.5}>
+            <option value={6.6667}>
               {"피격 시 10% 확률로 데미지의 40% 무시"}
             </option>
-            <option value={7.5}>
+            <option value={6.6667}>
               {
                 "모든 스킬의 재사용 대기시간 : -1초(10초 이하는 5%감소 5초 미만으로 감소 불가)"
               }
+            </option>
+            <option value={4.4444}>
+              {
+                "모든 스킬의 재사용 대기시간 : -2초(10초 이하는 10%감소 5초 미만으로 감소 불가)"
+              }
+            </option>
+            <option value={6.6667}>
+              {"<쓸만한 어드밴스드 블레스> 스킬 사용 가능"}
             </option>
           </select>
         </div>
 
         <div id={"option5"}>
-          <p className = {cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
-            <option value={9.142900000000001}>{"STR : +??%"}</option>
-            <option value={9.142900000000001}>{"DEX : +??%"}</option>
-            <option value={9.142900000000001}>{"INT : +??%"}</option>
-            <option value={9.142900000000001}>{"LUK : +??%"}</option>
-            <option value={10.5714}>{"최대 HP : +??%"}</option>
-            <option value={10.5714}>{"최대 MP : +??%"}</option>
-            <option value={7.7143}>{"방어력 : +??%"}</option>
-            <option value={7.2143}>{"올스탯 : +??%"}</option>
+            <option value={8.9207}>{"STR : +??%"}</option>
+            <option value={8.9207}>{"DEX : +??%"}</option>
+            <option value={8.9207}>{"INT : +??%"}</option>
+            <option value={8.9207}>{"LUK : +??%"}</option>
+            <option value={10.3492}>{"최대 HP : +??%"}</option>
+            <option value={10.3492}>{"최대 MP : +??%"}</option>
+            <option value={7.4921}>{"방어력 : +??%"}</option>
+            <option value={7.047599999999999}>{"올스탯 : +??%"}</option>
             <option value={7.1429}>{"STR : +9%"}</option>
             <option value={7.1429}>{"DEX : +9%"}</option>
             <option value={7.1429}>{"INT : +9%"}</option>
@@ -78,40 +86,48 @@ function Hat({grade, setOption, optionPer}) {
             <option value={5.7143}>
               {"<쓸만한 미스틱 도어> 스킬 사용 가능"}
             </option>
-            <option value={2.0}>{"STR : +12%"}</option>
-            <option value={2.0}>{"DEX : +12%"}</option>
-            <option value={2.0}>{"INT : +12%"}</option>
-            <option value={2.0}>{"LUK : +12%"}</option>
-            <option value={2.0}>{"최대 HP : +12%"}</option>
-            <option value={2.0}>{"최대 MP : +12%"}</option>
-            <option value={2.0}>{"방어력 : +12%"}</option>
-            <option value={1.5}>{"올스탯 : +9%"}</option>
-            <option value={1.5}>
+            <option value={1.7778}>{"STR : +12%"}</option>
+            <option value={1.7778}>{"DEX : +12%"}</option>
+            <option value={1.7778}>{"INT : +12%"}</option>
+            <option value={1.7778}>{"LUK : +12%"}</option>
+            <option value={1.7778}>{"최대 HP : +12%"}</option>
+            <option value={1.7778}>{"최대 MP : +12%"}</option>
+            <option value={1.7778}>{"방어력 : +12%"}</option>
+            <option value={1.3333}>{"올스탯 : +9%"}</option>
+            <option value={1.3333}>
               {"피격 시 10% 확률로 데미지의 20% 무시"}
             </option>
-            <option value={1.5}>
+            <option value={1.3333}>
               {"피격 시 10% 확률로 데미지의 40% 무시"}
             </option>
-            <option value={1.5}>
+            <option value={1.3333}>
               {
                 "모든 스킬의 재사용 대기시간 : -1초(10초 이하는 5%감소 5초 미만으로 감소 불가)"
               }
+            </option>
+            <option value={0.8889}>
+              {
+                "모든 스킬의 재사용 대기시간 : -2초(10초 이하는 10%감소 5초 미만으로 감소 불가)"
+              }
+            </option>
+            <option value={1.3333}>
+              {"<쓸만한 어드밴스드 블레스> 스킬 사용 가능"}
             </option>
           </select>
         </div>
 
         <div id={"option6"}>
-          <p className = {cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
-            <option value={8.9821}>{"STR : +??%"}</option>
-            <option value={8.9821}>{"DEX : +??%"}</option>
-            <option value={8.9821}>{"INT : +??%"}</option>
-            <option value={8.9821}>{"LUK : +??%"}</option>
-            <option value={10.6786}>{"최대 HP : +??%"}</option>
-            <option value={10.6786}>{"최대 MP : +??%"}</option>
-            <option value={7.2857}>{"방어력 : +??%"}</option>
-            <option value={7.1607}>{"올스탯 : +??%"}</option>
+            <option value={8.9265}>{"STR : +??%"}</option>
+            <option value={8.9265}>{"DEX : +??%"}</option>
+            <option value={8.9265}>{"INT : +??%"}</option>
+            <option value={8.9265}>{"LUK : +??%"}</option>
+            <option value={10.623}>{"최대 HP : +??%"}</option>
+            <option value={10.623}>{"최대 MP : +??%"}</option>
+            <option value={7.2301}>{"방어력 : +??%"}</option>
+            <option value={7.119000000000001}>{"올스탯 : +??%"}</option>
             <option value={8.4821}>{"STR : +9%"}</option>
             <option value={8.4821}>{"DEX : +9%"}</option>
             <option value={8.4821}>{"INT : +9%"}</option>
@@ -132,24 +148,32 @@ function Hat({grade, setOption, optionPer}) {
             <option value={6.7857}>
               {"<쓸만한 미스틱 도어> 스킬 사용 가능"}
             </option>
-            <option value={0.5}>{"STR : +12%"}</option>
-            <option value={0.5}>{"DEX : +12%"}</option>
-            <option value={0.5}>{"INT : +12%"}</option>
-            <option value={0.5}>{"LUK : +12%"}</option>
-            <option value={0.5}>{"최대 HP : +12%"}</option>
-            <option value={0.5}>{"최대 MP : +12%"}</option>
-            <option value={0.5}>{"방어력 : +12%"}</option>
-            <option value={0.375}>{"올스탯 : +9%"}</option>
-            <option value={0.375}>
+            <option value={0.4444}>{"STR : +12%"}</option>
+            <option value={0.4444}>{"DEX : +12%"}</option>
+            <option value={0.4444}>{"INT : +12%"}</option>
+            <option value={0.4444}>{"LUK : +12%"}</option>
+            <option value={0.4444}>{"최대 HP : +12%"}</option>
+            <option value={0.4444}>{"최대 MP : +12%"}</option>
+            <option value={0.4444}>{"방어력 : +12%"}</option>
+            <option value={0.3333}>{"올스탯 : +9%"}</option>
+            <option value={0.3333}>
               {"피격 시 10% 확률로 데미지의 20% 무시"}
             </option>
-            <option value={0.375}>
+            <option value={0.3333}>
               {"피격 시 10% 확률로 데미지의 40% 무시"}
             </option>
-            <option value={0.375}>
+            <option value={0.3333}>
               {
                 "모든 스킬의 재사용 대기시간 : -1초(10초 이하는 5%감소 5초 미만으로 감소 불가)"
               }
+            </option>
+            <option value={0.2222}>
+              {
+                "모든 스킬의 재사용 대기시간 : -2초(10초 이하는 10%감소 5초 미만으로 감소 불가)"
+              }
+            </option>
+            <option value={0.3333}>
+              {"<쓸만한 어드밴스드 블레스> 스킬 사용 가능"}
             </option>
           </select>
         </div>
@@ -159,8 +183,8 @@ function Hat({grade, setOption, optionPer}) {
     return (
       <div className={classname}>
         <div id={"option4"}>
-          <p className = {cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
             <option value={8.9286}>{"STR : +9%"}</option>
             <option value={8.9286}>{"DEX : +9%"}</option>
@@ -186,8 +210,8 @@ function Hat({grade, setOption, optionPer}) {
         </div>
 
         <div id={"option5"}>
-          <p className = {cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
             <option value={13.2143}>{"STR : +??%"}</option>
             <option value={13.2143}>{"DEX : +??%"}</option>
@@ -229,8 +253,8 @@ function Hat({grade, setOption, optionPer}) {
         </div>
 
         <div id={"option6"}>
-          <p className = {cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
             <option value={14.017800000000001}>{"STR : +??%"}</option>
             <option value={14.017800000000001}>{"DEX : +??%"}</option>
@@ -276,8 +300,8 @@ function Hat({grade, setOption, optionPer}) {
     return (
       <div className={classname}>
         <div id={"option4"}>
-          <p className = {cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
             <option value={14.2857}>{"STR : +6%"}</option>
             <option value={14.2857}>{"DEX : +6%"}</option>
@@ -291,8 +315,8 @@ function Hat({grade, setOption, optionPer}) {
         </div>
 
         <div id={"option5"}>
-          <p className = {cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
             <option value={8.857099999999999}>{"STR : +??%"}</option>
             <option value={8.857099999999999}>{"DEX : +??%"}</option>
@@ -328,8 +352,8 @@ function Hat({grade, setOption, optionPer}) {
         </div>
 
         <div id={"option6"}>
-          <p className = {cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
-          <select className = {cubeStyles.optionSelect} onChange={onChange}>
+          <p className={cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
+          <select className={cubeStyles.optionSelect} onChange={onChange}>
             <option value={100}>{"상관 없음"}</option>
             <option value={7.8393}>{"STR : +??%"}</option>
             <option value={7.8393}>{"DEX : +??%"}</option>
@@ -369,21 +393,21 @@ function Hat({grade, setOption, optionPer}) {
     return (
       <div className={classname}>
         <div id={"option4"}>
-          <p className = {cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
+          <p className={cubeStyles.optionText}>옵션 1 : {optionPer[0]}%</p>
           <select>
             <option>선택이 완료되지 않았습니다.</option>
           </select>
         </div>
 
         <div id={"option5"}>
-          <p className = {cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
+          <p className={cubeStyles.optionText}>옵션 2 : {optionPer[1]}%</p>
           <select>
             <option>선택이 완료되지 않았습니다.</option>
           </select>
         </div>
 
         <div id={"option6"}>
-          <p className = {cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
+          <p className={cubeStyles.optionText}>옵션 3 : {optionPer[2]}%</p>
           <select>
             <option>선택이 완료되지 않았습니다.</option>
           </select>
